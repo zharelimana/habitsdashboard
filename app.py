@@ -8,7 +8,7 @@ st.title("Welcome to the Data Analysis App")
 
 # Load the dataset
 try:
-    data = pd.read_csv('data/student_habits_performance.csv')  # use forward slash (or right click the file and copy relative path and paste between '')
+    data = pd.read_csv('/student_habits_performance.csv')  # use forward slash (or right click the file and copy relative path and paste between '')
 except Exception as e:
     st.error("Failed to load dataset. Please check the file path.")
     st.stop()
@@ -114,6 +114,7 @@ elif page == 'Insights':
 
 else:
     st.write("Please select a valid page from the sidebar.")
+
 
 
 
