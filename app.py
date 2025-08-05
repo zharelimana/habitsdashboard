@@ -22,7 +22,7 @@ if page == 'Home':
     st.header("Welcome to Student Performance Analysis Dashboard App")
     st.write("This app allows you to get insights into student habits and their impact on performance.")
     try:
-        st.image('image\WhatsApp Image 2025-08-02 at 18.29.39.jpeg', caption='student')
+        st.image('WhatsApp Image 2025-08-02 at 18.29.39.jpeg', caption='student')
     except Exception as e:
         st.warning('Image not found.') 
 
@@ -121,4 +121,5 @@ else:
 
 
     
+
 
